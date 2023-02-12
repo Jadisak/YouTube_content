@@ -6,7 +6,7 @@ root.geometry('1000x1500')
 root.title('AskMe')
 
 def search():
-    openai.api_key='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'
+    openai.api_key='YOUR_API_KEY'
     prompt = question.get()
     if prompt.lower()=='exit' or prompt.lower()=='quit':
         exit()
